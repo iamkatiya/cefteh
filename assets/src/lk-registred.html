@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+    //= template/header.html
+</header>
+<div class="content pb-5">
+    <div class="head-mobile mx-auto pt-4 pb-4">Личный Кабинет</div>
+ <div class="card-filters lk-form">
+                        <p class="catalog_filters_head mt-4">Ваш E-mail</p>
+                          <input type="text" placeholder="example@gmail.com" class="lkmob" required>
+                         <p class="catalog_filters_head mt-4">Пароль</p>
+                            <input type="text" placeholder="******" class="lkmob" required>
+                        <p class="catalog_filters_head mt-4">Подтвердите пароль</p>
+                             <input type="text" placeholder="******" class="lkmob" required>
+                         <div class="desc-hidden">
+                            <p class="catalog_filters_head mt-4">Ваше имя</p>
+                             <input type="text" placeholder="Андрей" class="lkmob" required>
+                             </div>
+                          <p class="catalog_filters_head mt-4">Ваша фамилия</p>
+                          <input type="text" placeholder="Андреев" class="lkmob" required>
+                       <p class="catalog_filters_head mt-4">Ваше отчество (если имеется)</p>
+                        <input type="text" placeholder="Андреевич" class="lkmob">
+                            <div class="form_check-mob mt-4 mb-0">
+                                 <input id="check-1" type="checkbox" name="checkbox" class="lk-check" required>
+                                 <label for="check-1">Я согласен с политикой конфиденциальности.</label>
+                              </div>
+                     </div>
+                     <div class="row"><button class="lk-button lk-button_noborder mb-3 mt-4 mx-auto">ЗАРЕГИСТРИРОВАТЬСЯ</button></div>
+               </div>
+
+<footer class="footer">
+       //= template/footer.html
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

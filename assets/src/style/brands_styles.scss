@@ -1,0 +1,60 @@
+.brands-icons
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  &_new
+  {
+    margin: 70px 0;
+  }
+}
+.fflex
+{
+  flex: 10%;
+}
+svg
+{
+  fill: black;
+  max-width: 138px;
+  max-height: 40px;
+}
+.brand-block
+{
+  width: 100%;
+  padding: 70px 37px 20px;
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin-left: 25px;
+  transition: .3s;
+  min-height: 190px;
+  text-decoration: none!important;
+  &:hover, &_active
+  {
+    background: #45A6FF;
+    svg
+    {
+      fill: white!important;
+    }
+    .brand-plite-text
+    {
+      color: #FFFFFF;
+    }
+  }
+}
+.brand-plite-text
+{
+
+  transition: .3s;
+  text-align: center;
+  margin-top: 40px;
+  font-family: Avenir Next Cyr, sans-serif;
+  font-size: 14px;
+  color: black;
+  letter-spacing: .05em;
+  font-weight: 800;
+}
+.other-brands
+{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}

@@ -1,0 +1,190 @@
+.main-popular-item-brand_left
+{
+  text-align: left;
+}
+.numbers
+{
+  width: 20px;
+  border: none;
+
+}
+.number
+{
+  display: flex;
+  text-align: center;
+  position: relative;
+  max-width: 13px;
+  &_mobile
+  {
+    margin-left: 30px;
+  }
+
+
+  &_normal
+  {
+    max-width: 100%;
+  }
+}
+.nc-minus
+{
+  position: absolute;
+  left: -30px;
+  cursor: pointer;
+  &:before
+  {
+    content: '';
+    left: -5px;
+    top:5px;
+    position: absolute;
+    width: 1.99px;
+    height: 11.94px;
+    background: #1D1D1D;
+    border-radius: 2px;
+    transform: rotate(90deg);
+  }
+}
+.nc-plus
+{
+  position: absolute;
+  right: -50px;
+  cursor: pointer;
+  &:before
+  {
+    content: '';
+    left: 5px;
+    top:3px;
+    position: absolute;
+    width: 1.99px;
+    height: 11.94px;
+    background: #1D1D1D;
+    border-radius: 2px;
+    transform: rotate(90deg);
+  }
+  &:after
+  {
+    content: '';
+    left: 5px;
+    top:4px;
+    position: absolute;
+    width: 1.99px;
+    height: 11.94px;
+    background: #1D1D1D;
+    border-radius: 2px;
+    transform: rotate(180deg);
+  }
+}
+.table td
+{
+  vertical-align: middle!important;
+}
+.tab_head
+{
+  letter-spacing: 0.05em;
+  th
+  {
+    border: none!important;
+  }
+}
+.select2
+{
+  padding-top: 3px;
+  background: #e5e5e5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none !important;
+  background-repeat: no-repeat;
+  text-decoration: underline;
+  background-position: right;
+  &_white
+  {
+    background: #FFFFFF;
+    font-size: 8px;
+    margin-top: -4px;
+    margin-left: 2px;
+    font-weight: 900;
+  }
+}
+.table_items tr, .table_items td
+{
+  border: none;
+}
+.tab-details td, th
+{
+  border-right: 1px solid #45A6FF;
+}
+.select3
+{
+  border: 2px solid #45A6FF;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: white;
+  color: #b1b1b1;
+  width: 100%;
+  padding: 10px 20px;
+}
+.arr-block
+{
+  position: relative;
+  margin-top: .6rem;
+  &::before
+  {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    width: 48px;
+    height: 2px;
+    background: black;
+  }
+}
+.arr-left
+{
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: black;
+  top:35%;
+  left: 88%;
+  transform: rotate(45deg);
+}
+.arr-right
+{
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background: black;
+  top:65%;
+  left: 88%;
+  transform: rotate(-45deg);
+}
+.no-buys
+{
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.arr-block
+{
+  transition: .3s;
+  &:hover
+  {
+    opacity: .7;
+  }
+}
+.bn
+{
+  border: none!important;
+}
+.thin-line
+{
+  width: 100%;
+  height: 1px;
+  background: #45A6FF;
+}
+.close-icon
+{
+  &:hover
+  {
+    opacity: .7;
+  }
+}

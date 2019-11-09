@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+    //= template/header.html
+</header>
+<div class="content pb-5">
+    <div class="head-mobile mx-auto pt-4 pb-4">Личный Кабинет</div>
+    <div class="card-filters lk-form">
+        <p class="cabinet-head mt-4 mb-0">Текущее имя</p>
+        <p class="cabinet-head_mini mt-1">Сергей Удальцов</p>
+        <input type="text" placeholder="Введите новое имя" class="lkmob" >
+        <p class="cabinet-head mt-4 mb-0">Текущий E-mail</p>
+        <p class="cabinet-head_mini mt-1">example@gmail.com</p>
+        <input type="text" placeholder="Введите новый e-mail" class="lkmob">
+        <p class="cabinet-head mt-4 mt-4">Смена пароля</p>
+        <input type="text" placeholder="Введите новый пароль" class="lkmob">
+        <p class="cabinet-head mt-4 mt-4">Подтверждение изменений*</p>
+        <input type="text" placeholder="Введите текущий пароль" class="lkmob" required>
+
+    </div>
+    <div class="buttons mx-auto mt-5">
+        <button class="btns-login mr-3">СОХРАНИТЬ</button>
+        <button class="btns-login btns-login_light">НАЗАД</button>
+    </div>
+
+</div>
+
+<footer class="footer">
+    //= template/footer.html
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

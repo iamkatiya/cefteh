@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+<header class="header">
+   //= template/header.html
+</header>
+<div class="content">
+<div class="main main_catalog mx-auto">
+    <div class="sort-item" id="sort-item">
+    <span class="close1" id="close"></span>
+        <div class="card-filters mx-auto mt-3">
+           <p class="catalog_filters_head">Цена, руб.</p>
+           <div class="price_box">
+            <div class="col-6">
+            <div class="row">
+                <p class="text-from mb-0 mt-1 mr-2">от</p>
+                <input type="text" placeholder="420" class="boxes">
+            </div>
+            </div>
+            <div class="col-6">
+            <div class="row">
+                <p class="text-from mb-0 mt-1 mr-2">до</p>
+                   <input type="text" placeholder="8900" class="boxes">
+                </div>
+                </div>
+            </div>
+
+            <p class="catalog_filters_head mt-4">Мощность, кВА</p>
+                       <div class="price_box">
+                        <div class="col-6">
+                        <div class="row">
+                            <p class="text-from mb-0 mt-1 mr-2">от</p>
+                            <input type="text" placeholder="0,45" class="boxes">
+                        </div>
+                        </div>
+                        <div class="col-6">
+                        <div class="row">
+                            <p class="text-from mb-0 mt-1 mr-2">до</p>
+                               <input type="text" placeholder="2670" class="boxes">
+                            </div>
+                            </div>
+                        </div>
+
+             <p class="catalog_filters_head mt-4">Производитель</p>
+                <div class="form_check">
+                	<input id="check-1" type="checkbox" name="checkbox">
+                	<label for="check-1">ANSMANN</label>
+                </div>
+                <div class="form_check">
+                 <input id="check-2" type="checkbox" name="checkbox" value="1">
+                 <label for="check-2">ENERGOMERA</label>
+                 </div>
+
+                    <p class="catalog_filters_head mt-4">Применение для</p>
+                   <div class="form_check">
+                   	<input id="check-3" type="checkbox" name="checkbox" value="1">
+                   	<label for="check-3">Дома</label>
+                   </div>
+                   <div class="form_check">
+                    <input id="check-4" type="checkbox" name="checkbox" value="1">
+                    <label for="check-4">Офиса</label>
+                    </div>
+                    <div class="form_check">
+                        	<input id="check-5" type="checkbox" name="checkbox" value="1">
+                        	<label for="check-5">Бизнеса</label>
+                        </div>
+                        <div class="form_check">
+                         <input id="check-6" type="checkbox" name="checkbox" value="1">
+                         <label for="check-6">Насосов</label>
+                         </div>
+                    <div class="form_check">
+                       	<input id="check-7" type="checkbox" name="checkbox" value="1">
+                       	<label for="check-7">Котлов</label>
+                       </div>
+                       <div class="form_check">
+                        <input id="check-8" type="checkbox" name="checkbox" value="1">
+                        <label for="check-8">ЦОД</label>
+                        </div>
+                    <div class="form_check">
+                        	<input id="check-9" type="checkbox" name="checkbox" value="1">
+                        	<label for="check-9">Медицины</label>
+                        </div>
+                        <div class="form_check">
+                         <input id="check-10" type="checkbox" name="checkbox" value="1">
+                         <label for="check-10">Сервера</label>
+                         </div>
+                        <div class="form_check">
+                        	<input id="check-11" type="checkbox" name="checkbox" value="1">
+                        	<label for="check-11">Промышленности</label>
+                        </div>
+                        <div class="form_check">
+                         <input id="check-12" type="checkbox" name="checkbox" value="1">
+                         <label for="check-12">Морских судов</label>
+                         </div>
+                       <div class="form_check">
+                        <input id="check-13" type="checkbox" name="checkbox" value="1">
+                        <label for="check-13">Другое</label>
+                        </div>
+
+
+                    <p class="catalog_filters_head mt-4">Тип</p>
+                        <div class="form_check">
+                        	<input id="check-14" type="checkbox" name="checkbox" value="1">
+                        	<label for="check-14">Online</label>
+                        </div>
+                        <div class="form_check">
+                         <input id="check-15" type="checkbox" name="checkbox" value="1">
+                         <label for="check-15">Line Interactive</label>
+                         </div>
+
+                    <p class="catalog_filters_head mt-4">Исполнение</p>
+                            <div class="form_check">
+                            	<input id="check-16" type="checkbox" name="checkbox" value="1">
+                            	<label for="check-16">Tower</label>
+                            </div>
+                            <div class="form_check">
+                             <input id="check-17" type="checkbox" name="checkbox" value="1">
+                             <label for="check-17">Minitower</label>
+                             </div>
+                            <div class="form_check">
+                              	<input id="check-18" type="checkbox" name="checkbox" value="1">
+                              	<label for="check-18">Rack mount</label>
+                              </div>
+                              <div class="form_check">
+                               <input id="check-19" type="checkbox" name="checkbox" value="1">
+                               <label for="check-19">Rack/Tower</label>
+                               </div>
+
+                            <p class="catalog_filters_head mt-4">Фазы</p>
+                             <div class="form_check">
+                             	<input id="check-20" type="checkbox" name="checkbox" value="1">
+                             	<label for="check-20">1/1</label>
+                             </div>
+                             <div class="form_check">
+                              <input id="check-21" type="checkbox" name="checkbox" value="1">
+                              <label for="check-21">3/1</label>
+                              </div>
+                             <div class="form_check">
+                               	<input id="check-22" type="checkbox" name="checkbox" value="1">
+                               	<label for="check-22">3/3</label>
+                               </div>
+
+                            <p class="catalog_filters_head mt-4">АКБ</p>
+                              <div class="form_check">
+                              	<input id="check-23" type="checkbox" name="checkbox" value="1">
+                              	<label for="check-23">Встроенная</label>
+                              </div>
+                              <div class="form_check">
+                               <input id="check-24" type="checkbox" name="checkbox" value="1">
+                               <label for="check-24">Внешняя</label>
+                               </div>
+        </div>
+    </div>
+    <div class="opacy">
+    <div class="catalog">
+    <div class="filter-panel-mob" id="filter-panel">
+    <div class="filter-menu">
+    <div class="filter-button" id="filter-button"><div class="main-popular-item-title main-popular-item-title_mobile">ФИЛЬТР ТОВАРОВ </div>
+    <svg class = "filter" width="18" height="16" viewBox="0 0 18 16" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16.5 1.25H1.5L7.5 8.345V13.25L10.5 14.75V8.345L16.5 1.25Z" stroke="#1C1C1C" fill="fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" style="fill:none"/>
+    </svg></div>
+    <a class="main-popular-item-title main-popular-item-title_mobile top">СОРТИРОВАТЬ ПО</a>
+    <select class="select2 select2_white pr-3">
+                  <option selected="selected">ПОПУЛЯРНОСТИ</option>
+                   <option>ПОПУЛЯРНОСТИ</option>
+                   <option>ПОПУЛЯРНОСТИ</option>
+                    </select>
+                    </div>
+</div>
+    <div class="container p-0">
+    <div class="main-categories p-0">
+            <div class="container p-0 mx-auto">
+                <div class="flex-box flex-stretch gray plites plites_new pt-3">
+                <div class="item-plite">
+                <a class="main-categories-item main-categories-item_catalog"><img class="mobile-photo" src="img/cat-1.svg"/>
+                 <p>ДГУ</p></a>
+                </div>
+                <div class="item-plite">
+                 <a class="main-categories-item main-categories-item_catalog"><img class="mobile-photo" src="img/cat-2.svg"/>
+                  <p>Аккумуляторы</p></a>
+                 </div>
+                <div class="item-plite">
+                 <a class="main-categories-item main-categories-item_catalog"><img class="mobile-photo" src="img/cat-3.svg"/>
+                  <p>Инверторы</p></a>
+                 </div>
+                <div class="item-plite">
+                 <a class="main-categories-item main-categories-item_catalog"><img class="mobile-photo" src="img/cat-4.svg"/>
+                  <p>Выпрямители</p></a>
+                 </div>
+                <div class="item-plite">
+                <a class="main-categories-item main-categories-item_catalog pl-1"><img class="mobile-photo" src="img/cat-5.svg"/>
+                 <p>Стабилизаторы</p></a>
+                </div>
+                <div class="item-plite">
+                 <a class="main-categories-item main-categories-item_catalog pt-0"><img class="mobile-photo" src="img/cat-6.svg"/>
+                  <p class="mt-2">Сетодиодное освещение</p></a>
+                 </div>
+                </div>
+            </div>
+        </div>
+                <div class="row mob-hidden m-0">
+                    <div class="col-8 p-0">
+                        <p class="catalog_filters_head mt-4 pt-1 pl-3">69 позиций</p>
+                    </div>
+                    <div class="col-4 p-0">
+                    <div class="sort_box mt-4 pr-3">
+                        <p class="catalog_filters_head mt-1 mr-2" style="white-space: nowrap">Сортировать по:</p>
+                            <select class="select1">
+                            <option selected="selected">популярности</option>
+                            <option>популярности</option>
+                            <option>популярности</option>
+                            </select>
+                    </div>
+                    </div>
+                </div>
+        <div class="flex-box flex-stretch gray pt-3">
+        <div class="main-popular-item main-popular-item_new  catalog-item">
+             <span class="main-popular-item-fav main-popular-item-fav_active"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+        <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+        <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+        <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+
+        <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+        <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+            <div class="main-popular-item main-popular-item_new catalog-item">
+             <span class="main-popular-item-fav"></span>
+             <p class="main-popular-item-brand">ENERGOMERA</p>
+             <img src="img/tov-img.png" alt="Энергомера CE 1 105 RF"/>
+             <p class="main-popular-item-cat">электросчётчики</p>
+            <a href="" class="main-popular-item-title">Энергомера CE 1 105 RF</a>
+              <div class="flex-box main-popular-item-price-row">
+               <p class="main-popular-item-price">750р.</p>
+               <a href="" class="main-popular-item-btn btn not-round">В корзину</a>
+              </div>
+           </div>
+
+        <a class="btn btn_more btn_more_hide mx-auto mt-5 mb-4" href="">Смотреть еще...</a>
+        <div class="pagination mx-auto pt-5 pb-5">
+                             <div class="pag-item">1</div>
+                             <div class="pag-item">...</div>
+                             <div class="pag-item">5</div>
+                             <div class="pag-item pag-item__active">6</div>
+                             <div class="pag-item">7</div>
+                             <div class="pag-item">...</div>
+                             <div class="pag-item">13</div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+//= template/footer.html
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

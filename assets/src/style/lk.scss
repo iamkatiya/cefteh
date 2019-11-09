@@ -1,0 +1,133 @@
+.lk-form
+{
+  margin: 0 25px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.lk-mini-head
+{
+  font-family: Proxima Nova, sans-serif;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  font-weight: 600;
+}
+.cont-butt
+{
+  position: relative;
+}
+.order-count
+{
+  position: absolute;
+  left: 88%;
+  bottom: 21%;
+}
+.lk-email
+{
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #B1B1B1;
+}
+.btns-login
+{
+  border: 2px solid white;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 5px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  &_light
+  {
+    color: #FFFFFF;
+    background: none;
+    box-shadow: none;
+  }
+
+}
+.buttons
+{
+  width: 232px;
+}
+.lk-button {
+  border: 2px solid #45A6FF;
+  width: 188px;
+  padding: 7px 0;
+  background: #FFFFFF;
+  font-family: Proxima-nova, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+  &_noborder
+  {
+    border: none;
+    &_mini
+    {
+      min-width: 0;
+      padding: 7px 10px;
+    }
+  }
+
+  &_orders {
+    text-align: left;
+    padding-left: 2.2em;
+    &::before {
+      position: absolute;
+      content: '';
+      width: 2px;
+      background: #45A6FF;
+      height: 100%;
+      top: 0;
+      left: 81%;
+
+    }
+  }
+}
+.lkmob
+{
+  border: 2px solid #45A6FF;
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px ;
+}
+.form_check-mob {
+  margin-bottom: 10px;
+}
+.form_check-mob input[type=checkbox] {
+  display: none;
+}
+.form_check-mob label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 0;
+  line-height: 18px;
+  user-select: none;
+}
+.form_check-mob label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 17px;
+  border: 2px solid #45A6FF;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+/* Checked */
+.form_check-mob input[type=checkbox]:checked + label:before {
+  background: #45A6FF;
+}

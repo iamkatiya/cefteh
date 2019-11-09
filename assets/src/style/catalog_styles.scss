@@ -1,0 +1,137 @@
+.main
+{
+  &_catalog
+  {
+    display: flex;
+    flex-wrap: nowrap;
+    background: #e5e5e5;
+    padding: 40px 120px;
+    max-width: 2000px;
+  }
+}
+.content
+{
+  background: #e5e5e5;
+}
+.card-filters
+{
+  min-width: 280px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  margin: 0 0 10px 0;
+}
+.blueline
+{
+  width: 100%;
+  height: 9px;
+  background: #45a6ff;
+}
+.catalog_filters_head
+{
+  font-family: 'Proxima-nova-bold', Arial;
+  font-size: 19px;
+}
+.price_box
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.boxes
+{
+  max-width: 90px;
+  padding: 2px 7px!important;
+}
+
+
+.form_check {
+  margin-bottom: 10px;
+}
+.form_check input[type=checkbox] {
+  display: none;
+}
+.form_check label {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 25px;
+  margin-right: 0;
+  line-height: 18px;
+  user-select: none;
+}
+.form_check label:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border: 2px solid #45A6FF;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+/* Checked */
+.form_check input[type=checkbox]:checked + label:before {
+  background: #45A6FF;
+}
+.select1
+{
+  border: 2px solid #45A6FF;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  background: #e5e5e5;
+  padding: 5px 20px;
+}
+.sort_box
+{
+  display: flex;
+  flex-wrap: nowrap;
+  float: right;
+}
+
+table { border-collapse: separate; }
+tr td:first-child { border-top-left-radius: 7px; }
+tr td:last-child { border-top-right-radius: 7px; }
+tr td:first-child { border-bottom-left-radius: 7px; }
+tr td:last-child { border-bottom-right-radius: 7px; }
+.tab_body tr
+{
+  background: #FFFFFF;
+}
+.table_items
+{
+  border-spacing: 0 8px;
+  &_deliv
+  {
+    border-spacing: 0 0;
+  }
+}
+.sort-item
+{
+  flex: 0 0 24%;
+}
+.catalog
+{
+  flex: 0 0 74%;
+  margin-left: 2%;
+}
+.list-catalog-group
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.catalog-item
+{
+  width: calc(25% - 20px);
+  margin: 10px!important;
+}
+.item-plite
+{
+  width: calc(16.6% - 10px);
+  margin: 5px;
+}
