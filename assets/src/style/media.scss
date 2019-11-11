@@ -114,6 +114,10 @@
 }
 @media (min-width: 992px)
 {
+  .main-categories-item img {
+    height: 80px;
+    width: 80px;
+  }
   .popular-item_oth
   {
     padding: 15px 20px;
@@ -211,6 +215,17 @@
 
 
 @media (max-width: 991px) {
+  .top
+  {
+    padding-right: 0!important;
+  }
+  .main-popular-item .main-popular-item-title
+  {
+    height: 30px;
+    width: 160px;
+    overflow: hidden;
+    display: block;
+  }
   .main-slider-item-img_brands
   {
     padding-top: 0;
@@ -270,7 +285,7 @@
   }
   .card-filters
   {
-    padding: 15px 10px 15px 10px;
+    padding: 15px 10px 15px 20px;
     margin: 0 10px 0!important;
   }
   .order-date
@@ -943,6 +958,7 @@
     .content
     {
         background: #45a6ff!important;
+      overflow: hidden;
         &_top
         {
             padding-top: 3rem;
@@ -1527,6 +1543,7 @@
 }
 @media(max-width: 374px)
 {
+
   .brand-block
   {
     padding: 15px 11px 16px;
@@ -1552,6 +1569,13 @@
     margin-bottom: 6vh;
   }
 
+}
+@media(max-width: 347px)
+{
+  .catalog
+  {
+    max-width: 325px;
+  }
 }
 
 @media (max-height: 545px)

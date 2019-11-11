@@ -514,7 +514,9 @@ ul.slick-dots li.slick-active {
 .main-categories-item p {
     margin: 20px 0 0;
     font-size: 12px;
-    white-space: nowrap;
+    white-space: normal;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .main-categories-item img {
     margin: 0 auto;

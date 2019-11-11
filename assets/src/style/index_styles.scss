@@ -93,7 +93,6 @@ p.main-slider-item-info-brand {
 .main-slider-item-img-label {
     background: #FFFFFF;
     border-radius: 0 7px 7px 0;
-    padding: 7px 20px;
     color: rgba(29, 29, 29, 0.5);
     margin-top: 40px;
 }
@@ -220,7 +219,9 @@ p.main-slider-item-info-brand {
     text-decoration: none;
     color: #1D1D1D;
     margin: 0 0 15px;
-    display: table;
+    overflow: hidden;
+    height: 44px;
+    display: block;
 }
 .main-popular-item-price {
     font-family: 'Proxima-nova-bold', Arial;
@@ -440,4 +441,27 @@ ul.slick-dots li button {
 .invalid-box
 {
     border: 2px solid #FF5B4F;
+}
+.breadcrumb-arr
+{
+    margin-top: -2px;
+}
+.visible
+{
+    position: fixed;
+    bottom: 5%;
+    width: 100px;
+    height: 100px;
+    right: 3%;
+    transition: .7s;
+    background-image: url("../img/Arrow.png");
+}
+.arrow-up
+{
+    transition: .7s;
+    z-index: 200;
+    &:hover
+    {
+        cursor: pointer;
+    }
 }
