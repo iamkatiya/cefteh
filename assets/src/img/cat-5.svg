@@ -1,0 +1,71 @@
+<svg width="71" height="83" viewBox="0 0 71 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.10205" y="1" width="67.9704" height="81" rx="3" stroke="#1D1D1D" stroke-width="2"/>
+<rect x="0.602051" y="25.5" width="68.9704" height="1" rx="0.5" stroke="#1D1D1D"/>
+<path d="M28.0908 1H42.084V16C42.084 17.6569 40.7409 19 39.084 19H31.0908C29.434 19 28.0908 17.6569 28.0908 16V1Z" stroke="#1D1D1D" stroke-width="2"/>
+<path d="M32.0889 9H38.0855V12.0017C38.0855 13.6576 36.7431 15 35.0872 15C33.4313 15 32.0889 13.6576 32.0889 12.0017V9Z" stroke="#1D1D1D" stroke-width="2"/>
+<path d="M38.0854 82L32.0888 82L32.0888 46.9983C32.0888 45.3424 33.4312 44 35.0871 44C36.7431 44 38.0854 45.3424 38.0854 46.9983L38.0854 82Z" stroke="#1D1D1D" stroke-width="2"/>
+<mask id="path-6-inside-1" fill="white">
+<rect x="23.0923" y="49" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 49)"/>
+</mask>
+<rect x="23.0923" y="49" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 49)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-6-inside-1)"/>
+<mask id="path-7-inside-2" fill="white">
+<rect x="23.0923" y="53" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 53)"/>
+</mask>
+<rect x="23.0923" y="53" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 53)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-7-inside-2)"/>
+<mask id="path-8-inside-3" fill="white">
+<rect x="23.0923" y="57" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 57)"/>
+</mask>
+<rect x="23.0923" y="57" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 57)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-8-inside-3)"/>
+<mask id="path-9-inside-4" fill="white">
+<rect x="23.0923" y="61" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 61)"/>
+</mask>
+<rect x="23.0923" y="61" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 61)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-9-inside-4)"/>
+<mask id="path-10-inside-5" fill="white">
+<rect x="23.0923" y="70" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 70)"/>
+</mask>
+<rect x="23.0923" y="70" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 70)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-10-inside-5)"/>
+<mask id="path-11-inside-6" fill="white">
+<rect x="23.0923" y="74" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 74)"/>
+</mask>
+<rect x="23.0923" y="74" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 74)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-11-inside-6)"/>
+<mask id="path-12-inside-7" fill="white">
+<rect x="23.0923" y="78" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 78)"/>
+</mask>
+<rect x="23.0923" y="78" width="12.9945" height="2" rx="1" transform="rotate(180 23.0923 78)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-12-inside-7)"/>
+<mask id="path-13-inside-8" fill="white">
+<rect x="60.0767" y="49" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 49)"/>
+</mask>
+<rect x="60.0767" y="49" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 49)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-13-inside-8)"/>
+<mask id="path-14-inside-9" fill="white">
+<rect x="60.0767" y="53" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 53)"/>
+</mask>
+<rect x="60.0767" y="53" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 53)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-14-inside-9)"/>
+<mask id="path-15-inside-10" fill="white">
+<rect x="60.0767" y="57" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 57)"/>
+</mask>
+<rect x="60.0767" y="57" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 57)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-15-inside-10)"/>
+<mask id="path-16-inside-11" fill="white">
+<rect x="60.0767" y="61" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 61)"/>
+</mask>
+<rect x="60.0767" y="61" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 61)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-16-inside-11)"/>
+<mask id="path-17-inside-12" fill="white">
+<rect x="60.0767" y="70" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 70)"/>
+</mask>
+<rect x="60.0767" y="70" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 70)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-17-inside-12)"/>
+<mask id="path-18-inside-13" fill="white">
+<rect x="60.0767" y="74" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 74)"/>
+</mask>
+<rect x="60.0767" y="74" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 74)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-18-inside-13)"/>
+<mask id="path-19-inside-14" fill="white">
+<rect x="60.0767" y="78" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 78)"/>
+</mask>
+<rect x="60.0767" y="78" width="12.9945" height="2" rx="1" transform="rotate(180 60.0767 78)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-19-inside-14)"/>
+<mask id="path-20-inside-15" fill="white">
+<rect x="60.0767" y="34" width="49.9788" height="2" rx="1" transform="rotate(180 60.0767 34)"/>
+</mask>
+<rect x="60.0767" y="34" width="49.9788" height="2" rx="1" transform="rotate(180 60.0767 34)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-20-inside-15)"/>
+<mask id="path-21-inside-16" fill="white">
+<rect x="60.0767" y="38" width="49.9788" height="2" rx="1" transform="rotate(180 60.0767 38)"/>
+</mask>
+<rect x="60.0767" y="38" width="49.9788" height="2" rx="1" transform="rotate(180 60.0767 38)" stroke="#1D1D1D" stroke-width="2" mask="url(#path-21-inside-16)"/>
+</svg>
