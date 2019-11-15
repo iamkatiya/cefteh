@@ -2,62 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8582d821-3213-435d-9b5b-b735295c9361" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/card.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/js/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/js/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/basket_favorites_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/basket_favorites_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/brands_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/brands_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/catalog_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/catalog_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/index_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/index_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/src/style/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/style/template_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/style/template_styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/src/template/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/цэт - Ярлык.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/цэт - Ярлык.lnk" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/src/style/media.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="328" column="19" selection-start-line="328" selection-start-column="19" selection-end-line="328" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/style/template_styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8466">
-              <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/card.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/style/my.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/src/style/index_styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3264">
-              <caret line="192" column="8" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,69 +31,11 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>991</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/assets/src/style/my.scss" />
-        <option value="$PROJECT_DIR$/assets/src/style/index_styles.scss" />
-        <option value="$PROJECT_DIR$/assets/src/style/template_styles.scss" />
-        <option value="$PROJECT_DIR$/assets/src/style/media.scss" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
-  </component>
   <component name="ProjectId" id="1TH1RmrMqT6XGTvUyiqYmQUcUzp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="gulp-project-bootstrap-4-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulp-project-bootstrap-4-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gulp-project-bootstrap-4-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulp-project-bootstrap-4-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gulp-project-bootstrap-4-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulp-project-bootstrap-4-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gulp-project-bootstrap-4-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gulp-project-bootstrap-4-master" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -187,11 +94,26 @@
       <workItem from="1573194447001" duration="126000" />
       <workItem from="1573302763700" duration="3572000" />
       <workItem from="1573308158756" duration="1164000" />
+      <workItem from="1573310041587" duration="528000" />
+      <workItem from="1573311177780" duration="610000" />
+      <workItem from="1573367535581" duration="5265000" />
+      <workItem from="1573483099502" duration="8720000" />
+      <workItem from="1573532738887" duration="1353000" />
+      <workItem from="1573565679334" duration="4515000" />
+      <workItem from="1573628022897" duration="11592000" />
+      <workItem from="1573661315809" duration="1824000" />
+      <workItem from="1573706750605" duration="6705000" />
+      <workItem from="1573715060505" duration="78000" />
+      <workItem from="1573715196564" duration="296000" />
+      <workItem from="1573715537136" duration="1036000" />
+      <workItem from="1573716596838" duration="123000" />
+      <workItem from="1573716805751" duration="337000" />
+      <workItem from="1573717434945" duration="605000" />
+      <workItem from="1573718193438" duration="27000" />
+      <workItem from="1573721606605" duration="519000" />
+      <workItem from="1573792700273" duration="5982000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -202,68 +124,34 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/src/style/media.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="328" column="19" selection-start-line="328" selection-start-column="19" selection-end-line="328" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/style/template_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8466">
-          <caret line="498" column="19" selection-start-line="498" selection-start-column="19" selection-end-line="498" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/style/my.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/style/index_styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3264">
-          <caret line="192" column="8" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

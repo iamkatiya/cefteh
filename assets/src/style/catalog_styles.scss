@@ -12,6 +12,7 @@
 .content
 {
   background: #e5e5e5;
+  min-height: 70vh;
 }
 .card-filters
 {
@@ -92,12 +93,7 @@
   flex-wrap: nowrap;
   float: right;
 }
-
 table { border-collapse: separate; }
-tr td:first-child { border-top-left-radius: 7px; }
-tr td:last-child { border-top-right-radius: 7px; }
-tr td:first-child { border-bottom-left-radius: 7px; }
-tr td:last-child { border-bottom-right-radius: 7px; }
 .tab_body tr
 {
   background: #FFFFFF;

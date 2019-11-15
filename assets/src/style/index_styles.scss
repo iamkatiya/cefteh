@@ -93,7 +93,6 @@ p.main-slider-item-info-brand {
 .main-slider-item-img-label {
     background: #FFFFFF;
     border-radius: 0 7px 7px 0;
-    padding: 7px 20px;
     color: rgba(29, 29, 29, 0.5);
     margin-top: 40px;
 }
@@ -106,14 +105,14 @@ p.main-slider-item-info-brand {
     font-family: 'Proxima-nova-bold', Arial;
     color: #fff;
     padding: 18px 30px;
-    margin: 270px 0 80px 120px;
+    margin: 270px 0 80px 240px;
 }
 .main-slider-item-img-price-old {
     font-size: 30px;
     line-height: 37px;
     color: black;
     position: relative;
-    margin-left: 120px;
+    margin-left: 240px;
 }
 .main-slider-item-img-price-old:before {
     display: block;
@@ -131,7 +130,9 @@ p.main-slider-item-info-brand {
     letter-spacing: 0.05em;
     font-family: 'Proxima-nova-bold', Arial;
     color: black;
-    margin-left: 120px;
+    position: absolute;
+    top: 80%;
+    margin-left: 240px;
 }
 .main-slider ul.slick-dots {
     padding: 0;
@@ -220,12 +221,16 @@ p.main-slider-item-info-brand {
     text-decoration: none;
     color: #1D1D1D;
     margin: 0 0 15px;
-    display: table;
+    overflow: hidden;
+    height: 44px;
+    display: block;
 }
 .main-popular-item-price {
     font-family: 'Proxima-nova-bold', Arial;
-    font-size: 30px;
-    margin: 0 10px 0 0;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
 .main-popular-item-btn {
     font-size: 13px;
@@ -236,8 +241,8 @@ p.main-slider-item-info-brand {
     height: 23px;
     display: table;
     position: absolute;
-    right: 20px;
-    top: 60px;
+    right: 10px;
+    top: 15px;
     cursor: pointer;
     z-index: 200;
     &_active
@@ -407,6 +412,7 @@ ul.slick-dots li button {
     border: 1px solid white;
     border-radius: 8px;
     color: #FFFFFF;
+    display: inline-block;
     transition: .3s;
   &_active
   {
@@ -440,4 +446,27 @@ ul.slick-dots li button {
 .invalid-box
 {
     border: 2px solid #FF5B4F;
+}
+.breadcrumb-arr
+{
+    margin-top: -2px;
+}
+.visible
+{
+    position: fixed;
+    bottom: 5%;
+    width: 100px;
+    height: 100px;
+    right: 3%;
+    transition: .7s;
+    background-image: url("../img/Arrow.png");
+}
+.arrow-up
+{
+    transition: .7s;
+    z-index: 200;
+    &:hover
+    {
+        cursor: pointer;
+    }
 }

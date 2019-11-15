@@ -63,7 +63,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 10000,
         dots: true,
-        speed: 600,
+        speed: 1500,
         infinite: true,
         nextArrow: '<a class="slick-next"></a>',
         prevArrow: '<a class="slick-prev"></a>',
@@ -245,7 +245,7 @@ $(".slider-five").slick({
     slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 10000,
-    speed: 600,
+    speed: 1500,
     infinite: true,
     nextArrow: '<a class="slick-next slick-next_new pr-4"></a>',
     prevArrow: '<a class="slick-prev slick-prev_new pr-4"></a>',
@@ -374,3 +374,18 @@ function view(n) {
     style = document.getElementById(n).style;
     style.display = (style.display === 'block') ? 'none' : 'block';
 }
+$(function() {
+    $('#up-button').click(function(){
+        $('html, body').animate({scrollTop:0}, 2000);
+    });
+});
+$(window).scroll(function() {
+    var top = $(this).scrollTop();
+    if (top >= 700) {
+        $(".arrow-up").addClass("visible")
+    }
+    else
+        {
+            $(".arrow-up").removeClass("visible")
+        }
+});
